@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import '../styles/index.scss';
+import '../styles/header.scss';
 import eeprom from '../../public/logo_eeprom.svg';
 
 const Header: React.FC = () => {
