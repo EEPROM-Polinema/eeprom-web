@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles/index.scss'; // Importing the main SCSS file
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
-    <footer style={{ backgroundColor: '#1D24CA', color: '#FFF', padding: '1rem' }}>
-      <div className="container mx-auto">
-        <p className="text-center">&copy; 2024 EEPROM Polinema. All rights reserved.</p>
+    <footer className="footer">
+      <div className="footer-content">
+        <p>&copy; {new Date().getFullYear()} EEPROM Polinema. All rights reserved.</p>
       </div>
     </footer>
   );
