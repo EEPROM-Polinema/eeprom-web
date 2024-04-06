@@ -1,16 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EEPROM Polinema Website
 
-## Getting Started
+### Clone the Project
 
-First, run the development server:
+```
+git clone https://github.com/EEPROM-Polinema/web-eeprom.git
+```
 
-```bash
+### Install the Dependencies
+
+```
+npm install
+```
+
+or 
+
+```
+bun install
+```
+
+### Run the Development Server
+
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+```
+
+or
+
+```
 bun dev
 ```
 
