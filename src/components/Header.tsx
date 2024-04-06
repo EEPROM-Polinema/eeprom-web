@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import '../styles/index.scss';
 
 const Header: React.FC = () => {
@@ -6,6 +7,7 @@ const Header: React.FC = () => {
     <header className="header">
       <div className="header-content">
         <div className="logo">
+          <Image src="/../public/logo_eeprom.svg" width={40} height={40} alt="EEPROM Logo" />
           <span>EEPROM Polinema</span>
         </div>
         <nav className="navbar">
