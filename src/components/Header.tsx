@@ -14,8 +14,21 @@ const Header: React.FC = () => {
         <nav className="navbar">
           <ul className="nav-list">
             <li className="nav-item">Home</li>
-            <li className="nav-item">Profile</li>
-            <li className="nav-item">Article</li>
+            <li className="nav-item dropdown">
+              Profile
+              <div className="dropdown-content">
+                <a href="#">Visi & Misi</a>
+                <a href="#">Divisi</a>
+                <a href="#">Struktur Organisasi</a>
+              </div>
+            </li>
+            <li className="nav-item dropdown">
+              Article
+              <div className="dropdown-content">
+                <a href="#">Program Kerja</a>
+                <a href="#">Prestasi</a>
+              </div>
+            </li>
             <li className="nav-item">Contact us</li>
           </ul>
         </nav>
