@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
                 <li>
                   <a
                     href="https://github.com/EEPROM-Polinema"
-                    className="text-blue-300 hover:text-blue-500"
+                    className="hover:text-blue-500"
                   >
                     GitHub
                   </a>
@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
                 <li>
                   <a
                     href="https://www.instagram.com/eeprom.polinema/"
-                    className="text-blue-300 hover:text-blue-500"
+                    className="hover:text-blue-500"
                   >
                     Instagram
                   </a>
