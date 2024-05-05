@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/globals.css";
+import eeprom from "../../public/logo_eeprom.svg";
+import Image from "next/image";
 
 const Footer: React.FC = () => {
   return (
@@ -8,8 +10,17 @@ const Footer: React.FC = () => {
         <div className="w-full md:w-4/5 lg:w-3/4 space-y-8">
           <div className="flex justify-between">
             <div className="w-1/5 md:mr-8 text-gray-600">
-              <h2 className="text-lg font-bold">EEPROM</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div className="flex items-center">
+                <Image
+                  src={eeprom}
+                  width={40}
+                  height={40}
+                  alt="EEPROM Logo"
+                  className="mr-2 pointer"
+                />
+                <h2 className="text-lg font-bold">EEPROM Polinema</h2>
+              </div>
+              <p className="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
 
             <div className="w-1/5 md:mr-8 text-gray-600">
@@ -21,7 +32,7 @@ const Footer: React.FC = () => {
                 style={{ border: 0 }}
                 loading="lazy"
                 title="Google Maps"
-                className="mt-4"
+                className="mt-4 mb-10"
               ></iframe>
             </div>
 
@@ -61,7 +72,10 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="bg-cyan-600 text-gray-100 text-center py-2 absolute bottom-0 w-full">
-        <p>&copy; {new Date().getFullYear()} EEPROM Polinema. All rights reserved.</p>
+        <p>
+          &copy; {new Date().getFullYear()} EEPROM Polinema. All rights
+          reserved.
+        </p>
       </div>
     </footer>
   );
